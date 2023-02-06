@@ -1,0 +1,130 @@
+.card-background {
+  align-content: center;
+  max-width: 400px;
+  height: 440px;
+  margin: 0 auto;
+  margin-top: 12%;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 40px;
+}
+
+.login-register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type=text] {
+  transition-duration: 0.3s;
+  width: 200px;
+  font-size: 15px;
+  padding: 10px;
+  border: 0px solid;
+  border-bottom: 1px solid;
+  border-radius: 5px;
+}
+
+input[type=text]:hover {
+  transition-duration: 0.3s;
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 1);
+  border-bottom: 1px solid;
+  border-radius: 5px;
+}
+
+input[type=password] {
+  transition-duration: 0.3s;
+  width: 200px;
+  font-size: 15px;
+  padding: 10px;
+  border: 0px solid;
+  border-bottom: 1px solid;
+  border-radius: 5px;
+}
+
+input[type=password]:hover {
+  transition-duration: 0.3s;
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 1);
+  border-bottom: 1px solid;
+  border-radius: 5px;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-logo {
+  align-content: center;
+  max-width: 100px;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-left: 38%;
+  margin-bottom: 10px;
+}
+
+/* START - main button*/
+.form-button {
+  transition-duration: 0.35s;
+  font-size: 22px;
+  width: 150px;
+  border: 1px solid;
+  border-radius: 8px;
+  background-color: white;
+  width: 220px;
+  height: 50px;
+  text-align: center;
+
+}
+
+.form-button:hover {
+  transition-duration: 0.3s;
+  width: 200px;
+  border: 1px solid;
+  color: white;
+  background-color: black;
+}
+
+.form-button:active {
+  font-size: 20px;
+  width: 150px;
+  background-color: white;
+  width: 220px;
+  height: 50px;
+}
+
+/* END - main button*/
+/* START - alt button*/
+.form-button-alt {
+  transition-duration: 0.35s;
+  font-size: 15px;
+  width: 150px;
+  border: 1px solid;
+  border-radius: 8px;
+  background-color: white;
+  width: 220px;
+  height: 30px;
+  text-decoration: none;
+}
+
+.form-button-alt:hover {
+  transition-duration: 0.3s;
+  width: 200px;
+  border: 1px solid;
+  color: white;
+  border-radius: 8px;
+  background-color: black;
+}
+
+.form-button-alt:active {
+  font-size: 20px;
+  width: 150px;
+  background-color: white;
+  width: 220px;
+  height: 50px;
+}
+
+/* END - alt button*/
