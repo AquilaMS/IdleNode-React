@@ -1,0 +1,52 @@
+.powerup {
+  transition-duration: 0.25s;
+  font-size: 50px;
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 7px;
+  margin-bottom: 35px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+.powerup:hover {
+  transition-duration: 0.35s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 40px;
+  scale: 1.05;
+}
+
+.powerup:active {
+  transition-duration: 0.1s;
+  scale: 1;
+
+}
+
+.powerup-icon-image {
+  max-width: 50px;
+  top: 50%;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.powerup-title {
+  margin-left: 30px;
+  font-size: 25px;
+  align-self: center;
+  flex: 3;
+}
+
+.powerup-buy-btn {
+  flex: 1;
+  text-align: center;
+}
+
+.powerup-price {
+  padding-top: 10px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.coin {
+  font-size: 10px;
+}

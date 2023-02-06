@@ -1,0 +1,27 @@
+.navbar {
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  max-width: 700px;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0 auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.logo-navbar {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.navbar-appname {
+  font-size: 22px;
+}

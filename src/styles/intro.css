@@ -1,0 +1,75 @@
+.intro-logo {
+  margin-top: 100px;
+  flex: 1;
+  width: 200px;
+  align-self: center;
+}
+
+.intro-allcontent {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-text {
+  flex-direction: column;
+  display: flex;
+}
+
+.intro-text p {
+  align-self: center;
+}
+
+.intro-app-title {
+  align-self: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.intro-redirect-buttons {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.intro-button {
+  width: 200px;
+  flex: 1;
+  align-self: center;
+  transition-duration: 0.3s;
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 1);
+  border-bottom: 10px solid;
+  background-color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+.intro-button:hover {
+  transition-duration: 0.3s;
+  padding: 10px;
+  border: 0;
+  border-bottom: 1px solid;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 1);
+  border-radius: 5px;
+}
+
+.intro-button:active {
+  transition-duration: 0.3s;
+  padding: 10px;
+  border: 0;
+  border-bottom: 1px solid;
+  box-shadow: 0 0 2px 1px rgb(255, 255, 255);
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.intro-hr {
+  border: 0px;
+  padding-top: 120px;
+  padding-right: 20px;
+
+}
